@@ -7,7 +7,7 @@
    ```yaml
    dependencies:
      xxhash128:
-       github: mentalblood/xxhash128
+       github: mentalblood0/xxhash128
    ```
 
 2. Run `shards install`
