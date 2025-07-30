@@ -1,0 +1,12 @@
+name: xxhash128
+version: 0.1.0
+
+authors:
+  - mentalblood0 <necheporenko.stepan@yandex.ru>
+
+crystal: '>= 1.16.3'
+
+scripts:
+  postinstall: cd src/xxhash && make || true
+
+license: MIT
